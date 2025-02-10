@@ -1,4 +1,4 @@
-# hw3
+# Homework 3 - Layout Widgets
 
 The objective for this homework is to learn to layout widgets. For each of the question you will need to layout widgets so they match the screenshots provided.
 
