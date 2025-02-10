@@ -16,7 +16,7 @@ I have provided the Row widget you just need to add the widgets so it matches th
 
 Hint: you will need to use the [Spacer](https://api.flutter.dev/flutter/widgets/Spacer-class.html) widget.
 
-<img src="https://raw.githubusercontent.com/ericmichael/flutter_hw3/refs/heads/master/screenshots/question1.png" width="40%">
+<img src="images/question1.png" width="40%">
 
 ## Question 2: Columns
 
@@ -28,7 +28,7 @@ Note: The following snippet makes the children of a Column start to the left.
 ```
 
 
-<img src="https://raw.githubusercontent.com/ericmichael/flutter_hw3/refs/heads/master/screenshots/question2.png" width="40%">
+<img src="images/question2.png" width="40%">
 
 ## Question 3: Rows & Columns
 
@@ -36,7 +36,7 @@ For this question you will need to use the widgets created in question 1 and 2. 
 
 Hint: Lookup [CircleAvatar](https://api.flutter.dev/flutter/material/CircleAvatar-class.html) and [Placeholder](https://api.flutter.dev/flutter/widgets/Placeholder-class.html) widgets.
 
-<img src="https://raw.githubusercontent.com/ericmichael/flutter_hw3/refs/heads/master/screenshots/question3.png" width="40%">
+<img src="images/question3.png" width="40%">
 
 
 ## Question 4: ListView
@@ -46,7 +46,7 @@ For this question you will be copying over the widget from question 3 and puttin
 Note: For this question the content of each post is up to you. Replace the placeholder widget with an image.
 
 
-<img src="https://raw.githubusercontent.com/ericmichael/flutter_hw3/refs/heads/master/screenshots/question4.gif" width="40%">
+<img src="images/question4.gif" width="40%">
 
 
 
