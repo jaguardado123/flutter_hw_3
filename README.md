@@ -1,4 +1,4 @@
-# Homework 3 - Layout Widgets
+# Homework 3 - Flutter Layout
 
 The objective for this homework is to learn to layout widgets. For each of the question you will need to layout widgets so they match the screenshots provided.
 
