@@ -11,7 +11,9 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: Scaffold(body: MainPage()));
+    return const MaterialApp(
+      home: MainPage(),
+    );
   }
 }
 
@@ -20,7 +22,8 @@ class MainPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Scaffold(
+        body: Center(
       child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -73,6 +76,6 @@ class MainPage extends StatelessWidget {
               ),
             ),
           ]),
-    );
+    ));
   }
 }

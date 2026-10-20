@@ -10,28 +10,18 @@ class Question4 extends StatefulWidget {
 class _Question4State extends State<Question4> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Scaffold(
+    return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
-        leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back_ios,
-            color: Colors.white,
-          ),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
+        backgroundColor: Colors.purpleAccent,
+        centerTitle: true,
         title: const Text('Question 4: ListView'),
       ),
       body: ListView(
         children: <Widget>[
           // ********************
           // YOUR WIDGETS GO HERE
-          
         ],
       ),
-    ));
+    );
   }
 }

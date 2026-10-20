@@ -5,28 +5,18 @@ class Question2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Scaffold(
+    return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.teal,
-        leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back_ios,
-            color: Colors.white,
-          ),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
+        backgroundColor: Colors.tealAccent,
         title: const Text('Question 2: Columns'),
+        centerTitle: true,
       ),
       body: const Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             // *********************
             // ADD YOUR WIDGETS HERE
-            
           ]),
-    ));
+    );
   }
 }
